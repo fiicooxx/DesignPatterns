@@ -9,27 +9,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{EC3FB65F-32BD-47EA-B2EC-F746A2264D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{9CEB31F5-E1B2-43CE-8C9E-815010302982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{9CEB31F5-E1B2-43CE-8C9E-815010302982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{26EC431F-4F22-4EEE-ADEE-6B8C2FE54A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{26EC431F-4F22-4EEE-ADEE-6B8C2FE54A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{C9BCAAFB-5C8E-41E7-95DE-78B9159CE7E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{C9BCAAFB-5C8E-41E7-95DE-78B9159CE7E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{371354B7-40B5-41CD-9404-1F7ED3E183A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{371354B7-40B5-41CD-9404-1F7ED3E183A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{D03D38E7-EC45-4B69-8576-0749FF43D165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{D03D38E7-EC45-4B69-8576-0749FF43D165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{8D335D21-9EEF-455D-B940-27FDBB2CBC02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{8D335D21-9EEF-455D-B940-27FDBB2CBC02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{064520F6-9BCE-4A05-A336-FFC4D1467DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{064520F6-9BCE-4A05-A336-FFC4D1467DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{173763A5-1A2F-4EA1-995D-701C6347D62F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{173763A5-1A2F-4EA1-995D-701C6347D62F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain_of_responsibility", "Chain_of_responsibility\Chain_of_responsibility.csproj", "{05091896-8B3D-490D-9EC6-A55DB3A819F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain_of_responsibility", "Chain_of_responsibility\Chain_of_responsibility.csproj", "{05091896-8B3D-490D-9EC6-A55DB3A819F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{648EEB9E-F8F2-4351-858E-91EE9D3B93AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{648EEB9E-F8F2-4351-858E-91EE9D3B93AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{8A81371F-083E-41FC-8857-D7759F527398}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{8A81371F-083E-41FC-8857-D7759F527398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{8CA64ED3-6C23-42E6-94FF-61375AFBA30A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{8A81371F-083E-41FC-8857-D7759F527398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A81371F-083E-41FC-8857-D7759F527398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A81371F-083E-41FC-8857-D7759F527398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA64ED3-6C23-42E6-94FF-61375AFBA30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA64ED3-6C23-42E6-94FF-61375AFBA30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA64ED3-6C23-42E6-94FF-61375AFBA30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA64ED3-6C23-42E6-94FF-61375AFBA30A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{05091896-8B3D-490D-9EC6-A55DB3A819F0} = {9903B2F6-1B9B-4D06-8007-D6CB5E2423CF}
 		{648EEB9E-F8F2-4351-858E-91EE9D3B93AB} = {9903B2F6-1B9B-4D06-8007-D6CB5E2423CF}
 		{8A81371F-083E-41FC-8857-D7759F527398} = {9903B2F6-1B9B-4D06-8007-D6CB5E2423CF}
+		{8CA64ED3-6C23-42E6-94FF-61375AFBA30A} = {EC3FB65F-32BD-47EA-B2EC-F746A2264D08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0770BA8B-CB0D-464B-BC9A-18D43A619EB7}
